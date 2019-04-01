@@ -1,5 +1,5 @@
 # mod_1
-![Plot](mod_1/Screen Shot 2019-03-29 at 2.21.45 PM.png)
+![Plot](https://raw.githubusercontent.com/denisdunn/mod_1/master/Screen%20Shot%202019-03-29%20at%2012.52.25%20PM.png)
       
       
 
