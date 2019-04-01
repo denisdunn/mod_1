@@ -1,2 +1,8 @@
-IN the folder Project 1 you will see different files for our codes. we have an api file, and webscraping file.
+In the folder Project 1 you will see different files for our codes. we have an api file, and webscraping file.
 Project1 data frame folder has the functions, filters, panda searches and graphs that we made for the project
+we pulled 19000 movies from the movie database and we scrapped those movies against IMBD and pulled critic and user review type info
+we put the data in a pandas dataframe and built a correaltion function to run every possible comparison we could find in the data.
+After filtering the data and scaling the budget info. we couldnt find any real opportunities. the budgets were high correalted to the revenues
+we did find that the top genres had a varying degree of bugets/revenues, we broke that out into graphs. 
+we put together a chart of all of the most and least profitable movie stars.
+we also found a high correalation between critic reviews and user reviews.
