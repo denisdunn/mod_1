@@ -1,4 +1,4 @@
 # mod_1
-![Plot](release_day.png)
+![Plot](Screen Shot 2019-03-29 at 1.03.35 PM.png)
 
       
