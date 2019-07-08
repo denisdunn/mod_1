@@ -13,6 +13,10 @@ We used TMDB's (The Movie Database) API, first to get a list of movies on TMDB, 
 ### IMDB
 The TMDB movie data also contained an IMDB url for the movie, so we built an IMDB scraper to gather IMDB data about those movies as well. Since it takes a long time to scrape 20,000 URLs, we split up the task into four parts, and ran each one individually, combining the data at the end. This is why our repository contains IMDB quart0-quart3. We added a random time delay to our scraper, to make sure it does not get blocked by IMDB. We also put every piece of data we try to gather into a 'try- except' loop, as IMDB page formats varied, and this could easily break our scraper. 
 
+### SQL
+
+We first merged the IMDB and TMDB data for movies, leaving around 17,000 movies that were populated for both. We then put this table into a SQL DB for future use, and also stored it as a .CSV as a back up. 
+
 ## Data Analysis
 
 ### Methodology
